@@ -4,7 +4,6 @@ from log_setup import log_command
 # Команда ls - отображение файлов и каталогов
 def ls(path=None, detailed=False):
     try:
-        # Если путь не указан, используем текущую директорию
         if path is None:
             target_path = '.'  # Текущая директория
         else:
